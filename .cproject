@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.tasking.config.ctc.abs.debug.1133557797">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.tasking.config.ctc.abs.debug.1133557797" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.tasking.managedbuilder.TASKING_IHEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TskRegexErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="blink_tc234" buildArtefactType="com.tasking.ctc.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.tasking.ctc.buildArtefactType.elf" cleanCommand="&quot;${PRODDIR}/bin/rm&quot; -rf" description="" id="com.tasking.config.ctc.abs.debug.1133557797" name="Debug" parent="com.tasking.config.ctc.abs.debug">
+					<folderInfo id="com.tasking.config.ctc.abs.debug.1133557797." name="/" resourcePath="">
+						<toolChain id="com.tasking.ctc.abs.debug.73615815" name="TASKING VX-toolset for TriCore" superClass="com.tasking.ctc.abs.debug">
+							<option id="com.tasking.ctc.pluginVersion.181160362" name="Plugin version" superClass="com.tasking.ctc.pluginVersion" value="1.232.0.0" valueType="string"/>
+							<option id="com.tasking.ctc.prodDir.1470307413" name="Product directory:" superClass="com.tasking.ctc.prodDir" value="${eclipse_home}/.." valueType="string"/>
+							<option id="com.tasking.ctc.cpu.1794446916" name="Processor:" superClass="com.tasking.ctc.cpu" value="tc23x" valueType="string"/>
+							<option id="com.tasking.ctc.coreSelection.1357616846" name="Use core:" superClass="com.tasking.ctc.coreSelection" value="vtc" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF;com.tasking.managedbuilder.TASKING_IHEX" id="com.tasking.ctc.platform.abs.debug.1863352085" name="Debug" osList="" superClass="com.tasking.ctc.platform.abs.debug"/>
+							<builder buildPath="${workspace_loc:/blink_tc234}/Debug" id="com.tasking.ctc.builder.abs.debug.1209311266" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
+							<tool id="com.tasking.ctc.cc.abs.debug.151186566" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.debug">
+								<option id="com.tasking.ctc.cc.pr36858.1168265102" name="workaround for PR36858" superClass="com.tasking.ctc.cc.pr36858" value="true" valueType="string"/>
+								<option id="com.tasking.ctc.cc.includePaths.341446091" name="Include paths" superClass="com.tasking.ctc.cc.includePaths" valueType="includePath"/>
+								<option id="com.tasking.ctc.cc.noTaskingSfr.1979220697" superClass="com.tasking.ctc.cc.noTaskingSfr" value="false" valueType="boolean"/>
+								<option id="com.tasking.ctc.cc.additionalOptions.928571481" superClass="com.tasking.ctc.cc.additionalOptions" value="${__SWP_GENERATED_BEGIN__}  -D__SWPLATFORM__ -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Configuration&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Scu/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Stm/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x/_Reg&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/SrvSw&quot; -DIFX_CFG_USE_COMPILER_DEFAULT_LINKER -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_common/ifx_cfg/include&quot; ${__SWP_GENERATED_END__}" valueType="string"/>
+								<inputType id="com.tasking.ctc.cppInputType.1390474260" name="C++" superClass="com.tasking.ctc.cppInputType"/>
+								<inputType id="com.tasking.ctc.cpp.cInputType.1691402681" name="C" superClass="com.tasking.ctc.cpp.cInputType"/>
+								<inputType id="com.tasking.ctc.cc.msInputType.593770004" name="MS" superClass="com.tasking.ctc.cc.msInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.as.abs.debug.1342902186" name="Assembler" superClass="com.tasking.ctc.as.abs.debug">
+								<inputType id="com.tasking.ctc.asmInputType.2075652729" name="ASM" superClass="com.tasking.ctc.asmInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.lk.abs.debug.300587603" name="Linker" superClass="com.tasking.ctc.lk.abs.debug">
+								<inputType id="com.tasking.ctc.lkObjInputType.670500989" name="OBJ" superClass="com.tasking.ctc.lkObjInputType"/>
+								<inputType id="com.tasking.ctc.lkLibInputType.996405565" name="LIB" superClass="com.tasking.ctc.lkLibInputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.tasking.config.ctc.abs.debug.1133557797.1597889088" name="/" resourcePath="SoftwarePlatform">
+						<toolChain id="com.tasking.ctc.abs.debug.995175826" name="TASKING VX-toolset for TriCore" superClass="com.tasking.ctc.abs.debug" unusedChildren="">
+							<option id="com.tasking.ctc.pluginVersion.181160362.1672426587" name="Plugin version" superClass="com.tasking.ctc.pluginVersion.181160362"/>
+							<option id="com.tasking.ctc.prodDir.1470307413.839134294" name="Product directory:" superClass="com.tasking.ctc.prodDir.1470307413"/>
+							<option id="com.tasking.ctc.cpu.1794446916.54215110" name="Processor:" superClass="com.tasking.ctc.cpu.1794446916"/>
+							<option id="com.tasking.ctc.coreSelection.1357616846.649660775" name="Use core:" superClass="com.tasking.ctc.coreSelection.1357616846"/>
+							<tool id="com.tasking.ctc.cc.abs.debug.1844306545" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.debug.151186566">
+								<option id="com.tasking.ctc.cc.additionalOptions.2147289560" superClass="com.tasking.ctc.cc.additionalOptions" value="${__SWP_GENERATED_BEGIN__}  -DNDEBUG -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_common/ifx_cfg/include&quot; -Wc--no-warnings=542 -D__SWPLATFORM__ -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Configuration&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Scu/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Stm/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x/_Reg&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/SrvSw&quot; -DIFX_CFG_USE_COMPILER_DEFAULT_LINKER -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_common/ifx_cfg/include&quot; ${__SWP_GENERATED_END__}" valueType="string"/>
+								<inputType id="com.tasking.ctc.cppInputType.864211991" name="C++" superClass="com.tasking.ctc.cppInputType"/>
+								<inputType id="com.tasking.ctc.cpp.cInputType.1225484507" name="C" superClass="com.tasking.ctc.cpp.cInputType"/>
+								<inputType id="com.tasking.ctc.cc.msInputType.1116142757" name="MS" superClass="com.tasking.ctc.cc.msInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.as.abs.debug.788059726" name="Assembler" superClass="com.tasking.ctc.as.abs.debug.1342902186">
+								<inputType id="com.tasking.ctc.asmInputType.1313666258" name="ASM" superClass="com.tasking.ctc.asmInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.lk.abs.debug.1719474001" name="Linker" superClass="com.tasking.ctc.lk.abs.debug.300587603"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="SoftwarePlatform/illd_tc23x/ini/illd_tc23x.Plugin|SoftwarePlatform/illd_common/ifx_cfg/ini/ifx_cfg.Plugin|SoftwarePlatform/illd_common/ifx_cfg/ini/ifx_cfg.Interface|SoftwarePlatform/illd_common/ifx_cfg/include/Ifx_Cfg.h|SoftwarePlatform/illd_common/aurix_illd/ini/illd_device.Interface|SoftwarePlatform/Stm/Std/ini/IfxStm.TC29xB.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC29x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC27xD.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC27xC.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC26xB.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC26x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC23x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC22x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.Interface|SoftwarePlatform/Stm/Std/doc/index.htm|SoftwarePlatform/Stm/Std/doc/LRM.css|SoftwarePlatform/Stm/Std/doc/Function_IfxStm_ActInit.htm|SoftwarePlatform/Stm/Std/InitApi/IfxStm_ActInit.h|SoftwarePlatform/Scu/Std/ini/IfxScu.TC29xB.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC29x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC27xD.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC27xC.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC26xB.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC26x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC23x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC22x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.Interface|SoftwarePlatform/Scu/Std/doc/index.htm|SoftwarePlatform/Scu/Std/doc/LRM.css|SoftwarePlatform/Scu/Std/doc/Function_IfxScuCcu_ActInit.htm|SoftwarePlatform/Scu/Std/InitApi/IfxScuCcu_ActInit.h|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC29xB.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC29x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC27xD.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC27xC.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC26xB.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC26x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC23x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC22x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.Interface|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC29xB.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC29x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC27xD.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC27xC.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC26xB.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC26x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC23x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC22x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.Interface|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC29xB.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC29x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC27xD.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC27xC.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC26xB.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC26x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC23x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC22x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.Interface" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="com.tasking.flash.settings"/>
+			<storageModule moduleId="com.tasking.toolInfo">
+				<toolInfo>TASKING program builder v6.2r1 Build 17012451</toolInfo>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.tasking.config.ctc.abs.release.1473351274">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.tasking.config.ctc.abs.release.1473351274" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.tasking.managedbuilder.TASKING_IHEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TskRegexErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="blink_tc234" buildArtefactType="com.tasking.ctc.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.tasking.ctc.buildArtefactType.elf" cleanCommand="&quot;${PRODDIR}/bin/rm&quot; -rf" description="" id="com.tasking.config.ctc.abs.release.1473351274" name="Release" parent="com.tasking.config.ctc.abs.release">
+					<folderInfo id="com.tasking.config.ctc.abs.release.1473351274." name="/" resourcePath="">
+						<toolChain id="com.tasking.ctc.abs.release.1246616747" name="TASKING VX-toolset for TriCore" superClass="com.tasking.ctc.abs.release">
+							<option id="com.tasking.ctc.pluginVersion.1052942801" name="Plugin version" superClass="com.tasking.ctc.pluginVersion" value="1.232.0.0" valueType="string"/>
+							<option id="com.tasking.ctc.prodDir.1746361490" name="Product directory:" superClass="com.tasking.ctc.prodDir" value="${eclipse_home}/.." valueType="string"/>
+							<option id="com.tasking.ctc.cpu.1207071457" name="Processor:" superClass="com.tasking.ctc.cpu" value="tc23x" valueType="string"/>
+							<option id="com.tasking.ctc.coreSelection.1134921343" name="Use core:" superClass="com.tasking.ctc.coreSelection" value="vtc" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF;com.tasking.managedbuilder.TASKING_IHEX" id="com.tasking.ctc.platform.abs.release.549663153" name="Release" osList="" superClass="com.tasking.ctc.platform.abs.release"/>
+							<builder buildPath="${workspace_loc:/blink_tc234}/Release" id="com.tasking.ctc.builder.abs.debug.1046651358" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
+							<tool id="com.tasking.ctc.cc.abs.release.1049990717" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.release">
+								<option id="com.tasking.ctc.cc.pr36858.1731043096" name="workaround for PR36858" superClass="com.tasking.ctc.cc.pr36858" value="true" valueType="string"/>
+								<option id="com.tasking.ctc.cc.noTaskingSfr.270675269" superClass="com.tasking.ctc.cc.noTaskingSfr" value="false" valueType="boolean"/>
+								<option id="com.tasking.ctc.cc.additionalOptions.1154610957" superClass="com.tasking.ctc.cc.additionalOptions" value="${__SWP_GENERATED_BEGIN__}  -D__SWPLATFORM__ -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Configuration&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Scu/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Stm/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x/_Reg&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/SrvSw&quot; -DIFX_CFG_USE_COMPILER_DEFAULT_LINKER -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_common/ifx_cfg/include&quot; ${__SWP_GENERATED_END__}" valueType="string"/>
+								<inputType id="com.tasking.ctc.cppInputType.1373361287" name="C++" superClass="com.tasking.ctc.cppInputType"/>
+								<inputType id="com.tasking.ctc.cpp.cInputType.1058268176" name="C" superClass="com.tasking.ctc.cpp.cInputType"/>
+								<inputType id="com.tasking.ctc.cc.msInputType.1706187114" name="MS" superClass="com.tasking.ctc.cc.msInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.as.abs.release.543531342" name="Assembler" superClass="com.tasking.ctc.as.abs.release">
+								<inputType id="com.tasking.ctc.asmInputType.1363941664" name="ASM" superClass="com.tasking.ctc.asmInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.lk.abs.release.1416111062" name="Linker" superClass="com.tasking.ctc.lk.abs.release">
+								<inputType id="com.tasking.ctc.lkObjInputType.427296534" name="OBJ" superClass="com.tasking.ctc.lkObjInputType"/>
+								<inputType id="com.tasking.ctc.lkLibInputType.1184805737" name="LIB" superClass="com.tasking.ctc.lkLibInputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.tasking.config.ctc.abs.release.1473351274.1826592901" name="/" resourcePath="SoftwarePlatform">
+						<toolChain id="com.tasking.ctc.abs.release.738915807" name="TASKING VX-toolset for TriCore" superClass="com.tasking.ctc.abs.release" unusedChildren="">
+							<option id="com.tasking.ctc.pluginVersion.1052942801.1219578149" name="Plugin version" superClass="com.tasking.ctc.pluginVersion.1052942801"/>
+							<option id="com.tasking.ctc.prodDir.1746361490.1797794757" name="Product directory:" superClass="com.tasking.ctc.prodDir.1746361490"/>
+							<option id="com.tasking.ctc.cpu.1207071457.1998208951" name="Processor:" superClass="com.tasking.ctc.cpu.1207071457"/>
+							<option id="com.tasking.ctc.coreSelection.1134921343.1627571751" name="Use core:" superClass="com.tasking.ctc.coreSelection.1134921343"/>
+							<tool id="com.tasking.ctc.cc.abs.release.290459002" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.release.1049990717">
+								<option id="com.tasking.ctc.cc.additionalOptions.608119874" superClass="com.tasking.ctc.cc.additionalOptions" value="${__SWP_GENERATED_BEGIN__}  -DNDEBUG -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_common/ifx_cfg/include&quot; -Wc--no-warnings=542 -D__SWPLATFORM__ -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Configuration&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Scu/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/Stm/Std/InitApi&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/TC23x/_Reg&quot; -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_tc23x/src/ifx/SrvSw&quot; -DIFX_CFG_USE_COMPILER_DEFAULT_LINKER -I&quot;${workspace_loc:/${ProjName}}/SoftwarePlatform/illd_common/ifx_cfg/include&quot; ${__SWP_GENERATED_END__}" valueType="string"/>
+								<inputType id="com.tasking.ctc.cppInputType.101018742" name="C++" superClass="com.tasking.ctc.cppInputType"/>
+								<inputType id="com.tasking.ctc.cpp.cInputType.2059665213" name="C" superClass="com.tasking.ctc.cpp.cInputType"/>
+								<inputType id="com.tasking.ctc.cc.msInputType.1463063970" name="MS" superClass="com.tasking.ctc.cc.msInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.as.abs.release.735648814" name="Assembler" superClass="com.tasking.ctc.as.abs.release.543531342">
+								<inputType id="com.tasking.ctc.asmInputType.154945195" name="ASM" superClass="com.tasking.ctc.asmInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.lk.abs.release.1553489491" name="Linker" superClass="com.tasking.ctc.lk.abs.release.1416111062"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="SoftwarePlatform/illd_tc23x/ini/illd_tc23x.Plugin|SoftwarePlatform/illd_common/ifx_cfg/ini/ifx_cfg.Plugin|SoftwarePlatform/illd_common/ifx_cfg/ini/ifx_cfg.Interface|SoftwarePlatform/illd_common/ifx_cfg/include/Ifx_Cfg.h|SoftwarePlatform/illd_common/aurix_illd/ini/illd_device.Interface|SoftwarePlatform/Stm/Std/ini/IfxStm.TC29xB.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC29x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC27xD.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC27xC.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC26xB.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC26x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC23x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.TC22x.Plugin|SoftwarePlatform/Stm/Std/ini/IfxStm.Interface|SoftwarePlatform/Stm/Std/doc/index.htm|SoftwarePlatform/Stm/Std/doc/LRM.css|SoftwarePlatform/Stm/Std/doc/Function_IfxStm_ActInit.htm|SoftwarePlatform/Stm/Std/InitApi/IfxStm_ActInit.h|SoftwarePlatform/Scu/Std/ini/IfxScu.TC29xB.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC29x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC27xD.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC27xC.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC26xB.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC26x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC23x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.TC22x.Plugin|SoftwarePlatform/Scu/Std/ini/IfxScu.Interface|SoftwarePlatform/Scu/Std/doc/index.htm|SoftwarePlatform/Scu/Std/doc/LRM.css|SoftwarePlatform/Scu/Std/doc/Function_IfxScuCcu_ActInit.htm|SoftwarePlatform/Scu/Std/InitApi/IfxScuCcu_ActInit.h|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC29xB.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC29x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC27xD.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC27xC.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC26xB.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC26x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC23x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.TC22x.Plugin|SoftwarePlatform/Hssl/Std/ini/IfxHssl.Interface|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC29xB.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC29x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC27xD.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC27xC.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC26xB.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC26x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC23x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.TC22x.Plugin|SoftwarePlatform/Gpt12/Std/ini/IfxGpt12.Interface|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC29xB.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC29x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC27xD.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC27xC.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC26xB.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC26x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC23x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.TC22x.Plugin|SoftwarePlatform/Asclin/Std/ini/IfxAsclin.Interface|sync_on_halt.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="com.tasking.flash.settings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="blink_tc234.com.tasking.ctc.target.abs.576061388" name="TASKING TriCore Application" projectType="com.tasking.ctc.target.abs"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.tasking.config.ctc.abs.debug.1133557797;com.tasking.config.ctc.abs.debug.1133557797.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.tasking.ctc.TskTriCoreScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.tasking.config.ctc.abs.release.1473351274;com.tasking.config.ctc.abs.release.1473351274.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.tasking.ctc.TskTriCoreScannerInfo"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.tasking.ctc.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.tasking.ctc.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.tasking.ctc.cpplanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.tasking.ctc.cpplanguage"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/blink_tc234"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/blink_tc234"/>
+		</configuration>
+	</storageModule>
+</cproject>
